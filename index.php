@@ -47,7 +47,7 @@
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="align-items-center ">
-            <img width="100px" src="./images/logo.png" alt="">
+            <img width="100px" src="https://i.ibb.co/hmZRhNL/logo.png" alt="">
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="./images/Virtual Reality.jpg" alt="">
+                            <img src="https://i.ibb.co/mD7pMRm/Virtual-Reality.png" alt="">
                             <div class="card-body">
                                 <p class="card-text text-dark">Virtual Reality</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -146,7 +146,7 @@
                     <div class="col">
                         <div class="card shadow-sm">
 
-                            <img src="./images/Space travels.jpg" alt="">
+                            <img src="https://i.ibb.co/YNhWWCL/Space-travels.jpg" alt="">
                             <div class="card-body">
                                 <p class="card-text text-dark">Space Travels</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -165,7 +165,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="./images/ProgImg.jpg" alt="">
+                            <img src="https://i.ibb.co/XCTwWKz/ProgImg.jpg" alt="">
                             <div class="card-body">
                                 <p class="card-text text-dark">Programming presentation</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -185,11 +185,11 @@
                 </div>
             </div>
             <?php elseif($_COOKIE['superuser'] == 0):?>
-            <img src="./images/notasks.png" style="margin-left: 45%" width="10%" alt="">
+            <img src="https://i.ibb.co/cF11cXX/notasks.png" style="margin-left: 45%" width="10%" alt="">
             <p class="text-secondary" align="center">You haven't got any work now =)</p>
             <?php else: ?>
                 <div class="container">
-                    <img src="./images/notfound.png" style="margin-left: 25%;" alt="Any tasks" class="img-notfound" width="50%">
+                    <img src="https://i.ibb.co/rx03ZWt/notfound.png" style="margin-left: 25%;" alt="Any tasks" class="img-notfound" width="50%">
                     <p class="text-secondary" align="center">Register or authorisate, firstly!</p>
                 </div>
             <?php endif ?>

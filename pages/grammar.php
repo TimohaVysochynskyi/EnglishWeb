@@ -21,7 +21,7 @@
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="align-items-center ">
-            <img width="100px" src="../images/logo.png" alt="">
+            <img width="100px" src="https://i.ibb.co/hmZRhNL/logo.png" alt="">
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">

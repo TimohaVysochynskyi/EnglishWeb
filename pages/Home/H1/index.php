@@ -110,7 +110,7 @@
                         <li class="questions"><span class="bold-black italic">Have we made</span>...
                         </li>
                     </ol>
-                    <img src="../../../images/scientist.jpg" alt="" width="100%" style="border-radius: 10px;">
+                    <img src="https://i.ibb.co/g6WzPSW/scientist.jpg" alt="" width="100%" style="border-radius: 10px;">
                 </div>
             </div>
             <!--Next column-->
@@ -154,7 +154,7 @@
                         </ol>
                     </div>
                     <div class="col">
-                        <img src="../../../images/scientist2.jpg" alt="" width="100%" style="border-radius: 10px;">
+                        <img src="https://i.ibb.co/x2bn8fn/scientist2.jpg" alt="" width="100%" style="border-radius: 10px;">
                     </div>
                 </div>
                 <div class="task3">

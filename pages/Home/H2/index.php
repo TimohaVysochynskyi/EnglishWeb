@@ -139,7 +139,7 @@
                         </ol>
                     </div>
                     <div class="col">
-                        <img src="../../../images/hospital.jpg" alt="" width="100%" style="border-radius: 10px;">
+                        <img src="https://i.ibb.co/ZVQJkp2/hospital.jpg" alt="" width="100%" style="border-radius: 10px;">
                     </div>
                 </div>
                 <form action="../../../php/progress.php" method="post">

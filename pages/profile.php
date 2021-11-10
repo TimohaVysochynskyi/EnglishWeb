@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body style="background-image: url(../images/backgrounf1.jpg);">
+<body style="background-image: url(https://i.ibb.co/WK8WbKv/backgrounf1.jpg);">
     <div class="container">
         <div class="main-body mt-5">
             <div class="row gutters-sm">
@@ -21,13 +21,13 @@
                             <a href="../index.php" class="btn btn-outline-dark me-2"><b>Back</b></a>
                             <div class="d-flex flex-column align-items-center text-center">
                                 <?php if($_COOKIE['points'] < 50 ): ?>
-                                <img src="../images/avatar2.png" alt="Avatar" class="rounded-circle" width="150">
+                                <img src="https://i.ibb.co/1M8Yfp2/avatar2.png" alt="Avatar" class="rounded-circle" width="150">
                                 <?php elseif($_COOKIE['points'] > 50 && $_COOKIE['points'] < 100): ?>
-                                <img src="../images/avatar5.png" alt="Avatar" class="rounded-circle" width="150">
+                                <img src="https://i.ibb.co/yQnqc3B/avatar5.png" alt="Avatar" class="rounded-circle" width="150">
                                 <?php elseif($_COOKIE['points'] > 100): ?>
-                                <img src="../images/avatar1.png" alt="Avatar" class="rounded-circle" width="150">
+                                <img src="https://i.ibb.co/0cRyDFM/avatar1.png" alt="Avatar" class="rounded-circle" width="150">
                                 <?php elseif($_COOKIE['superuser'] == '1'):?>
-                                <img src="../images/avatar7" alt="Avatar" class="rounded-circle" width="150">
+                                <img src="https://i.ibb.co/TqDNL1K/avatar7.png" alt="Avatar" class="rounded-circle" width="150">
                                 <?php endif ?>
                                 <div class="mt-3">
                                     <h4>
