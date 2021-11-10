@@ -50,7 +50,7 @@
         </div>
         <?php else:?>
             <a href="./profile.php" class="btn btn-outline-light me-2">Profile, <?=$_COOKIE['user']?></a>
-            <a href="../php/create-course.php" style="margin-left: 20px;"><img src="https://i.ibb.co/cw43rmn/plus.png" alt="add-course" width="30px"></a>
+            <a href="../php/course.php" style="margin-left: 20px;"><img src="https://i.ibb.co/cw43rmn/plus.png" alt="add-course" width="30px"></a>
         <?php endif;?>
       </div>
     </div>
