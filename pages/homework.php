@@ -71,6 +71,41 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <!--Here going the next col-block-->
+                <?php if($_COOKIE['newcourse'] == true): ?>
+                <?php include("../php/blocks.php"); ?>
+                <?php endif ?>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./Home/H3/Homework.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text text-dark">Homework 24/11/2021</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a class="btn btn-sm btn-outline-secondary" href="./Home/H3/index.html">View</a>
+                                    </div>
+                                    <small class="text-muted">
+<?php $data = '13.11.2021';$time = strtotime($data);$today = time();$day = ($today - $time)/86400;$day = floor($day);echo $day." days"; ?>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../images/emergencycall.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text text-dark">Emergency calls</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a class="btn btn-sm btn-outline-secondary" href="./Emergencycall/index.html">View</a>
+                                    </div>
+                                    <small class="text-muted">
+<?php $data = '12.11.2021';$time = strtotime($data);$today = time();$day = ($today - $time)/86400;$day = floor($day);echo $day." days"; ?>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="card shadow-sm">
                             <img src="./Home/H2/Homework.png" alt="">
@@ -165,7 +200,7 @@
             </div>
             <?php elseif($_COOKIE['superuser'] == 0):?>
                 <div class="container">
-                    <img src="https://i.ibb.co/cF11cXX/notasks.png" style="margin-left: 45%" width="10%" alt="">
+                    <img src="https://i.ibb.co/cF11cXX/notasks.png" style="margin-left: 40%" width="300px" alt="">
                     <p class="text-secondary" align="center">You haven't got any work now =)</p>
                 </div>
             <?php else: ?>

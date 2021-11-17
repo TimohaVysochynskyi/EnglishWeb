@@ -393,7 +393,7 @@
             </tr>
             <tr>
                 <td class="number">65</td>
-                <td>Suffered</td>
+                <td>Suffer</td>
                 <td class="ukranian">Страдждати</td>
             </tr>
             <tr>
@@ -532,23 +532,23 @@
             <!-- I stopped here -->
             <tr>
                 <td class="number">92</td>
-                <td>Hashly</td>
-                <td class="ukranian">Грубо</td>
+                <td>Membership</td>
+                <td class="ukranian">Ібонемент</td>
             </tr>
             <tr>
                 <td class="number">93</td>
-                <td>Sprain</td>
-                <td class="ukranian">Розтягнення</td>
+                <td>Salmon</td>
+                <td class="ukranian">Лосось</td>
             </tr>
             <tr>
                 <td class="number">94</td>
-                <td>Fractures</td>
-                <td class="ukranian">Тріщина</td>
+                <td>Picked cucumbers</td>
+                <td class="ukranian">Засолені агурекі</td>
             </tr>
             <tr>
                 <td class="number">95</td>
-                <td>Leaflet</td>
-                <td class="ukranian">Листівка</td>
+                <td>Lentil</td>
+                <td class="ukranian">Чічівіца</td>
             </tr>
             <tr>
                 <td class="number">96</td>

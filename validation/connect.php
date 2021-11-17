@@ -1,4 +1,4 @@
 <?php
-    $mysql = new mysqli('localhost', 't92241_dbuser', 'ArTU07YTh.Y*t:8!', 't92241_db');
+    $mysql = new mysqli('localhost', 't92593_dbuser', '3ra&*?#%djIQ!V8A', 't92593_db');
     //$mysql = new mysqli('localhost', 'root', 'root', 'register-bd');
 ?>

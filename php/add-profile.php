@@ -1,16 +1,16 @@
 <?php
     $newname = filter_var(trim($_POST['newname']),
     FILTER_SANITIZE_STRING);
-    $name = $_COOKIE['user'];
+    $name = trim($_REQUEST['name']);
     $newemail = filter_var(trim($_POST['newemail']),
     FILTER_SANITIZE_STRING);
-    $email = $_COOKIE['email'];
+    $email = trim($_REQUEST['email']);
     $newlogin = filter_var(trim($_POST['newlogin']),
     FILTER_SANITIZE_STRING);
-    $login = $_COOKIE['login'];
+    $login = trim($_REQUEST['login']);
     $newphone = filter_var(trim($_POST['newphone']),
     FILTER_SANITIZE_STRING);
-    $phone = $_COOKIE['phone'];
+    $phone = trim($_REQUEST['phone']);
 
     if(mb_strlen($newname) < 2 || mb_strlen($newname) > 30){
         echo "Невірний Name";

@@ -25,7 +25,7 @@
                 <input type="email" name="email" id="email" placeholder="Email" />
                 <input type="password" name="pass" id="pass" placeholder="Password" />
                 <input type="text" name="phone" id="phone" placeholder="Phone number" />
-                <input type="number" name="age" id="age" placeholder="Age" />
+                <input type="tel" name="age" id="age" placeholder="Age" />
                 <input type="text" name="country" id="country" placeholder="Country" />
                 <button type="submit">Sign Up</button>
             </form>

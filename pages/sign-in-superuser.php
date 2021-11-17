@@ -24,7 +24,7 @@
                 <input type="text" name="login" id="login" placeholder="Login" />
                 <input type="email" name="email" id="email" placeholder="Email" />
                 <input type="password" name="pass" id="pass" placeholder="Password" />
-                <input type="text" name="phone" id="phone" placeholder="Phone number" />
+                <input type="tel" name="phone" id="phone" placeholder="Phone number" />
                 <button type="submit">Sign Up</button>
             </form>
         </div>

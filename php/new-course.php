@@ -16,5 +16,14 @@
     setcookie('classdescription', $classdescription, time() + 3600 * 24 * 30, "/");
     setcookie('classteacher', $classteacher, time() + 3600 * 24 * 30, "/");
     setcookie('code', $code, time() + 3600 * 24 * 30, "/");
-    header("Location: ./create-course.php");
+
+    $mysql->query("CREATE TABLE `$code` (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+student VARCHAR(30) NOT NULL,
+points VARCHAR(30) NOT NULL
+)");
+    
+
+    $mysql->close();
+    header("Location: ./course.php");
 ?>

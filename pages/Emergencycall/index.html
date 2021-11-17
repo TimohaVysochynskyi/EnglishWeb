@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English | Emergency calls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <header class="p-1 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="align-items-center ">
+                    <img width="100px" src="https://i.ibb.co/hmZRhNL/logo.png" alt="">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="../../index.php" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="../vocablurary.php" class="nav-link px-2 text-white">Vocabulary</a></li>
+                    <li><a href="../grammar.php" class="nav-link px-2 text-white">Grammar</a></li>
+                    <li><a href="../homework.php" class="nav-link px-2 text-secondary">Homework</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Donate</a></li>
+                    <li><a href="../about.html" class="nav-link px-2 text-white">About</a></li>
+                </ul>
+
+                <a href="../profile.php" class="btn btn-outline-light me-2">Profile,
+                    <?=$_COOKIE['user']?>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="row py-lg-5">
+        <div class="col-lg-7 col-md-8 mx-auto">
+            <h1 class="text-light" align="center">Emergency calls</h1>
+            <p class="lead text-white text" id="myInput">
+                There are a lot of accidents in every pearson's life and always we need to call emergency services. And
+                in these little list I will describe, what have you to do in the accidents.
+            </p>
+            <h2 class="text-light" align="center">Medical help</h2>
+            <p>
+                Firstly, you have to phone 103 in Ukraine or 112 in other European countries. Then, say the adress of an
+                accident and describe all details. <span class="red">REMEMBER! The dispatcher finishes the call!</span>
+                <br>
+                Secondly, move the pearson to the <a class="green"
+                    href="http://www.medsanbat.info/vse-sho-potribno-znaty-pro-evakuatsiyu/">green zone</a>.
+                When you are waiting for help, you have to protect the victim and don't allow people to do
+                something with him. Then listen to the breath and count it for 10 seconds, if it's bleeding, take gloves
+                and a mask, then put compression bandage and strongly move the part of a body <span class="red">NOT
+                    HEAD!</span><br>
+                After that, take an assistant and meet the ambulance, also you have to say to use a resuscitation or CPR
+                systems if pearson is without breath. <br>
+                Finally, undress your gloves, but very tidely, because blood can touch your hands and you can die. Don't
+                forget to wash your hands and don't touch eyes and your mouth.
+            </p>
+            <p>
+            <details class="btn btn-primary my-2 edit">
+                <summary>Edit text</summary>
+                <h3>Here you can edit text</h3>
+                <form action="https://formspree.io/f/xzbyqjoe" method="POST">
+                    <label>
+                        <label>
+                            <textarea name="message" id="edittext" cols="90" rows="15" class="edit-text">
+
+                                </textarea>
+                        </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit" class="button" style="vertical-align:middle"><span>Send</span></button>
+                </form>
+            </details>
+            <a href=".index.ua.html" class="btn btn-secondary my-2 col">Translate</a>
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
