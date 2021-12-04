@@ -1,0 +1,146 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  border-radius: 10px;
+  margin: 10px;
+  height: auto;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links {
+  margin-right: 25px;
+  list-style: none;
+  line-height: 40px;
+}
+
+.links > a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.log-in {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  border-radius: 100px;
+  margin-right: 20px;
+  font-weight: 500;
+  border: 2px solid white;
+  transition: 0.5s;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 7px;
+  border-radius: 100px;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.profile-btn {
+  padding: 5px;
+  border: 2px white solid;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: 600;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: larger;
+  transition: 0.5s;
+}
+
+.profile-btn:hover {
+  box-shadow: orange 0px 0px 30px;
+  transition: 0.5s;
+}
+
+.log-in:hover,
+.sign-up:hover {
+  transition: 0.5s;
+  font-size: large;
+}
+
+.log-in:hover {
+  color: black;
+  background-color: white;
+}
+.sign-up:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.links > a:hover {
+  color: rgb(255, 136, 0);
+  transition: 0.5s;
+}
+
+section {
+  width: 70vw;
+}
+
+@media screen and (max-width: 868px) {
+  body {
+    background-color: gray;
+    background-image: url("../images/background4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+.auth-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links > .active {
+  color: orangered;
+}
